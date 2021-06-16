@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Final Design Demonstration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" id="bootstrap-css">
+    <style type="text/css">
+      .demo-title {
+        margin-bottom: 0 !important;
+        font-size: 30px;
+      }
+      .demo-img {
+        margin: 50px auto;
+      }
+    </style>
+  </head>
+  <body>
+  	<div class="container" style="text-align: center;">
+	    <h1 style="margin-top: 50px; margin-bottom: 50px;">Real Time Edge Detector Demonstration</h1>
+      <div class="row" style="display: inline-flex">
+        <div class="col-9 my-auto">
+          <img src="{{ url_for('video_feed_canny') }}" class="demo-img">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
